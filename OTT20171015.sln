@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OTT20171015", ".", "{D562AB
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_33995"
-		Debug.AspNetCompiler.PhysicalPath = "E:\OTT20171015\"
+		Debug.AspNetCompiler.PhysicalPath = "..\OTT20171015\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33995\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_33995"
-		Release.AspNetCompiler.PhysicalPath = "E:\OTT20171015\"
+		Release.AspNetCompiler.PhysicalPath = "..\OTT20171015\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33995\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "33995"
+		SlnRelativePath = "..\OTT20171015\"
 	EndProjectSection
 EndProject
 Global
@@ -35,6 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9ACBFB52-B357-4D26-9CF0-AA99DD67817E}
+		SolutionGuid = {889E3BE6-285C-4AE9-99DE-C20769A76266}
 	EndGlobalSection
 EndGlobal

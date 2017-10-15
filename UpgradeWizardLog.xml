@@ -283,5 +283,5 @@
   <event action="Analyze" type="Success" name="Session State Providers" path="E:\GitRepo\OTT20171015\web.config" />
   <event action="Analyze" type="Success" name="web.config" path="E:\GitRepo\OTT20171015\web.config" />
   <event action="Analyze" type="Success" name="E:\...\OTT20171015\" path="E:\GitRepo\OTT20171015" />
-  <event action="Analyze" type="Success" name="OTT20171015" path="E:\GitRepo\OTT20171015\OTT20171015.sln" />
+  <event action="Analyze" type="Success" name="Solution" path="Solution" />
 </log>
