@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+
+public partial class GdvSearchAll : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnQuery_Click(object sender, EventArgs e)
+    {
+        lblMessageLine.Text = "";
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        SqlDataReader rs = SqlComm.ExecuteReader();
+        if (rs.HasRows == true)
+        {
+            gdViewShow.DataSource = rs;
+            gdViewShow.DataBind();
+        }
+        else
+        {
+            lblMessageLine.Text = "員工資料檔無資料!!";
+        }
+        ObjConn.Close();
+        rs.Close();
+    }   
+    
+}

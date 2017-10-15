@@ -1,0 +1,74 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.master" AutoEventWireup="true" CodeFile="employee.aspx.cs" Inherits="employee" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+    <style type="text/css">
+
+        .auto-style1
+        {
+            width: 100%;
+        }
+        .auto-style2
+        {
+            width: 457px;
+        }
+        .auto-style3
+        {
+            width: 457px;
+            height: 37px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+    <table class="auto-style1" style="background-color: #CCFFCC">
+        <tr>
+            <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Names="標楷體" Font-Size="X-Large" ForeColor="#000099" Text="員工資料處理"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="lblMessage" runat="server" Font-Bold="True" Font-Names="標楷體" Font-Size="Medium" ForeColor="Red"></asp:Label>
+                <br /></td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <div style="width: 446px">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label1" runat="server" Height="25px" Text="員工代號" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        　 <asp:TextBox ID="txtNo" runat="server" Height="20px" Width="144px" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="btnQuery" runat="server" OnClick="btnQuery_Click" Text="查詢" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC" Height="25px" Width="65px" />
+                    <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label2" runat="server" Height="25px" Text="員工姓名" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        &nbsp;　<asp:TextBox ID="txtName" runat="server" Height="20px" Width="144px" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:TextBox>
+                    <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label3" runat="server" Height="25px" Text="員工身份證" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                    <asp:TextBox ID="txtID" runat="server" Height="20px" Width="128px" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:TextBox>
+                    <br />
+                        　 　<asp:Label ID="Label6" runat="server" Height="25px" Text="員工地址" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+&nbsp;&nbsp;&nbsp; <asp:TextBox ID="txtAddress" runat="server" Height="20px" Width="234px" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:TextBox>
+                    <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                        <asp:Label ID="Label7" runat="server" Height="25px" Text="員工電話" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        &nbsp;&nbsp;&nbsp;
+                        <asp:TextBox ID="txtTelNo" runat="server" Height="20px" Width="129px" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:TextBox>
+                    <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label4" runat="server" Height="25px" Text="員工底薪" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        　<asp:TextBox ID="txtSalary" runat="server" Height="20px" Width="132px" Font-Bold="True" Font-Size="Medium" ForeColor="#0033CC"></asp:TextBox>
+                    <br />
+                    <br />&nbsp;
+                    </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="btnCreate" runat="server" Height="30px" OnClick="btnCreate_Click" Text="建立員工資料" ValidationGroup="1" Width="91px" />
+                <asp:Button ID="btnUpdate" runat="server" Height="30px" OnClick="btnUpdate_Click" Text="更改員工資料" Width="94px" />
+                <asp:Button ID="btnDelete" runat="server" Height="30px" OnClick="btnDelete_Click" Text="刪除員工資料" ValidationGroup="1" Width="94px" />
+                <asp:Button ID="btnClear" runat="server" Height="30px" OnClick="BtnClear_Click" Text="清除" Width="58px" />
+                    &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="測試" />
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+

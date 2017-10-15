@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+
+public partial class empForm : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        SqlConnection ObjConn = new SqlConnection("");
+        ObjConn.Open();
+        string SqlString = "Insert into dbo.employee(empNo, empName,  empID, empAddress, empTelNo, empSalary) values ('A1010',  'TOM', 'A122334543', 'taipei', '02-28802455', 56000)";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        SqlComm.ExecuteNonQuery();
+        ObjConn.Close();
+
+    }
+}

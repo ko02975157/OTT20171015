@@ -1,0 +1,74 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="GdvDelSure.aspx.cs" Inherits="GdvDelSure" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="標楷體" Font-Size="X-Large" ForeColor="Blue" Text="員工離職處理"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                    <asp:Label ID="lblMessageLine" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Red"></asp:Label>
+    </p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;&nbsp;
+                        <asp:Label ID="Label8" runat="server" Height="25px" Text="員工代號" Font-Bold="True" Font-Names="細明體" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        　<asp:TextBox ID="txtNo" runat="server" Height="17px" Width="100px"></asp:TextBox>                       
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                       
+                        <asp:Label ID="Label2" runat="server" Height="30px" Text="員工姓名"  Font-Bold="True" Font-Names="細明體" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        　<asp:TextBox ID="txtName" runat="server" Height="17px" Width="100px"></asp:TextBox>
+                     &nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:Label ID="Label6" runat="server" Height="30px" Text="員工地址"  Font-Bold="True" Font-Names="細明體" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+        　<asp:TextBox ID="txtAddress" runat="server" Height="17px" Width="278px"></asp:TextBox>
+                    </p>       
+                        <asp:Label ID="Label3" runat="server" Height="30px" Text="員工身份證"  Font-Bold="True" Font-Names="細明體" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                    <asp:TextBox ID="txtID" runat="server" Height="17px" Width="100px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label7" runat="server" Height="30px" Text="員工電話"  Font-Bold="True" Font-Names="細明體" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        &nbsp;&nbsp;
+                        <asp:TextBox ID="txtTelNo" runat="server" Height="17px" Width="100px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" Height="30px" Text="員工底薪"  Font-Bold="True" Font-Names="細明體" Font-Size="Medium" ForeColor="#0033CC"></asp:Label>
+                        　<asp:TextBox ID="txtSalary" runat="server" Height="17px" Width="100px"></asp:TextBox>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="btnDelSure" runat="server" OnClick="btnDelSure_Click1" Text="確定刪除" />
+    <asp:Button ID="btnUpdatSure" runat="server" OnClick="btnUpdatSure_Click" style="height: 21px" Text="確定修改" />
+    <p>
+        <asp:GridView ID="gdvDelSureShow" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="gdvDelSureShow_SelectedIndexChanged" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
+             <AlternatingRowStyle BackColor="#CCCCCC" />
+        <Columns>
+            <asp:CommandField ShowSelectButton="True" HeaderText="選取" >
+            <ItemStyle Font-Size="Medium" />
+            </asp:CommandField>
+            <asp:BoundField DataField="empNo" HeaderText="員工代號">
+            <ItemStyle Font-Size="Medium" Width="80px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empName" HeaderText="員工姓名">
+            <ItemStyle Font-Size="Medium" Width="100px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empID" HeaderText="身份證號">
+            <ItemStyle Font-Size="Medium" Width="100px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empAddress" HeaderText="員工地址">
+            <ItemStyle Font-Size="Medium" Width="250px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empTelNo" HeaderText="員工電話">
+            <ItemStyle Font-Size="Medium" Width="120px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empSalary" HeaderText="薪資">
+            <ItemStyle Font-Size="Medium" Width="80px" />
+            </asp:BoundField>
+        </Columns>
+        <FooterStyle BackColor="#CCCCCC" />
+        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#808080" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#383838" />
+    </asp:GridView>
+    <br />
+ 
+    </p>
+</asp:Content>
+

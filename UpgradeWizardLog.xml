@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A1-1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A1-1.aspx" />
+  <event action="Analyze" type="Success" name="A1-1.aspx" path="E:\GitRepo\OTT20171015\A1-1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A1-2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A1-2.aspx" />
+  <event action="Analyze" type="Success" name="A1-2.aspx" path="E:\GitRepo\OTT20171015\A1-2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A1-3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A1-3.aspx" />
+  <event action="Analyze" type="Success" name="A1-3.aspx" path="E:\GitRepo\OTT20171015\A1-3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A1-4.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A1-4.aspx" />
+  <event action="Analyze" type="Success" name="A1-4.aspx" path="E:\GitRepo\OTT20171015\A1-4.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A1-5.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A1-5.aspx" />
+  <event action="Analyze" type="Success" name="A1-5.aspx" path="E:\GitRepo\OTT20171015\A1-5.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A2_1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A2_1.aspx" />
+  <event action="Analyze" type="Success" name="A2_1.aspx" path="E:\GitRepo\OTT20171015\A2_1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A2_2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A2_2.aspx" />
+  <event action="Analyze" type="Success" name="A2_2.aspx" path="E:\GitRepo\OTT20171015\A2_2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A2_3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A2_3.aspx" />
+  <event action="Analyze" type="Success" name="A2_3.aspx" path="E:\GitRepo\OTT20171015\A2_3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A3_1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A3_1.aspx" />
+  <event action="Analyze" type="Success" name="A3_1.aspx" path="E:\GitRepo\OTT20171015\A3_1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A3_2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A3_2.aspx" />
+  <event action="Analyze" type="Success" name="A3_2.aspx" path="E:\GitRepo\OTT20171015\A3_2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A3_3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A3_3.aspx" />
+  <event action="Analyze" type="Success" name="A3_3.aspx" path="E:\GitRepo\OTT20171015\A3_3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A4.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A4.aspx" />
+  <event action="Analyze" type="Success" name="A4.aspx" path="E:\GitRepo\OTT20171015\A4.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A4_1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A4_1.aspx" />
+  <event action="Analyze" type="Success" name="A4_1.aspx" path="E:\GitRepo\OTT20171015\A4_1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A4_2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A4_2.aspx" />
+  <event action="Analyze" type="Success" name="A4_2.aspx" path="E:\GitRepo\OTT20171015\A4_2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A4_3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A4_3.aspx" />
+  <event action="Analyze" type="Success" name="A4_3.aspx" path="E:\GitRepo\OTT20171015\A4_3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A5.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A5.aspx" />
+  <event action="Analyze" type="Success" name="A5.aspx" path="E:\GitRepo\OTT20171015\A5.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A5_1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A5_1.aspx" />
+  <event action="Analyze" type="Success" name="A5_1.aspx" path="E:\GitRepo\OTT20171015\A5_1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A5_2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A5_2.aspx" />
+  <event action="Analyze" type="Success" name="A5_2.aspx" path="E:\GitRepo\OTT20171015\A5_2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\A5_3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\A5_3.aspx" />
+  <event action="Analyze" type="Success" name="A5_3.aspx" path="E:\GitRepo\OTT20171015\A5_3.aspx" />
+  <event action="Analyze" type="Success" name="Binary References" path="E:\GitRepo\OTT20171015\bin\" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" name="Bundle.config" path="E:\GitRepo\OTT20171015\Bundle.config" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Copy (2) of Loaction_registerLoaction_register.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Copy (2) of Loaction_registerLoaction_register.aspx" />
+  <event action="Analyze" type="Success" name="Copy (2) of Loaction_registerLoaction_register.aspx" path="E:\GitRepo\OTT20171015\Copy (2) of Loaction_registerLoaction_register.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\DBdataTransferToListBox.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\DBdataTransferToListBox.aspx" />
+  <event action="Analyze" type="Success" name="DBdataTransferToListBox.aspx" path="E:\GitRepo\OTT20171015\DBdataTransferToListBox.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="E:\GitRepo\OTT20171015\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Default2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Default2.aspx" />
+  <event action="Analyze" type="Success" name="Default2.aspx" path="E:\GitRepo\OTT20171015\Default2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\demo.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\demo.aspx" />
+  <event action="Analyze" type="Success" name="demo.aspx" path="E:\GitRepo\OTT20171015\demo.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\gridview_test.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\gridview_test.aspx" />
+  <event action="Analyze" type="Success" name="gridview_test.aspx" path="E:\GitRepo\OTT20171015\gridview_test.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\LMangAudit.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\LMangAudit.aspx" />
+  <event action="Analyze" type="Success" name="LMangAudit.aspx" path="E:\GitRepo\OTT20171015\LMangAudit.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Loaction_registerLoaction_register.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Loaction_registerLoaction_register.aspx" />
+  <event action="Analyze" type="Success" name="Loaction_registerLoaction_register.aspx" path="E:\GitRepo\OTT20171015\Loaction_registerLoaction_register.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Logout.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Logout.aspx" />
+  <event action="Analyze" type="Success" name="Logout.aspx" path="E:\GitRepo\OTT20171015\Logout.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\MAIN.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\MAIN.aspx" />
+  <event action="Analyze" type="Success" name="MAIN.aspx" path="E:\GitRepo\OTT20171015\MAIN.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\MAIN1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\MAIN1.aspx" />
+  <event action="Analyze" type="Success" name="MAIN1.aspx" path="E:\GitRepo\OTT20171015\MAIN1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\MAIN2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\MAIN2.aspx" />
+  <event action="Analyze" type="Success" name="MAIN2.aspx" path="E:\GitRepo\OTT20171015\MAIN2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\MAIN3.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\MAIN3.aspx" />
+  <event action="Analyze" type="Success" name="MAIN3.aspx" path="E:\GitRepo\OTT20171015\MAIN3.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\MAIN4.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\MAIN4.aspx" />
+  <event action="Analyze" type="Success" name="MAIN4.aspx" path="E:\GitRepo\OTT20171015\MAIN4.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\MAIN5.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\MAIN5.aspx" />
+  <event action="Analyze" type="Success" name="MAIN5.aspx" path="E:\GitRepo\OTT20171015\MAIN5.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Redirect.config" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" name="Redirect.VS11.config" path="E:\GitRepo\OTT20171015\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\packages\Microsoft.AspNet.Providers.Core.1.1\readme.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\packages\Microsoft.AspNet.Providers.Core.1.1\readme.html" />
+  <event action="Analyze" type="Success" name="readme.html" path="E:\GitRepo\OTT20171015\packages\Microsoft.AspNet.Providers.Core.1.1\readme.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="E:\GitRepo\OTT20171015\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Registration.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Registration.aspx" />
+  <event action="Analyze" type="Success" name="Registration.aspx" path="E:\GitRepo\OTT20171015\Registration.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Site0.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Site0.master" />
+  <event action="Analyze" type="Success" name="Site0.master" path="E:\GitRepo\OTT20171015\Site0.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Site1.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Site1.master" />
+  <event action="Analyze" type="Success" name="Site1.master" path="E:\GitRepo\OTT20171015\Site1.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Site2.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Site2.master" />
+  <event action="Analyze" type="Success" name="Site2.master" path="E:\GitRepo\OTT20171015\Site2.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Site3.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Site3.master" />
+  <event action="Analyze" type="Success" name="Site3.master" path="E:\GitRepo\OTT20171015\Site3.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Site4.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Site4.master" />
+  <event action="Analyze" type="Success" name="Site4.master" path="E:\GitRepo\OTT20171015\Site4.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="E:\GitRepo\OTT20171015\Site5.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="E:\GitRepo\OTT20171015\Site5.master" />
+  <event action="Analyze" type="Success" name="Site5.master" path="E:\GitRepo\OTT20171015\Site5.master" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Assembly References" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="E:\GitRepo\OTT20171015\web.config" />
+  <event action="Analyze" type="Success" name="E:\...\OTT20171015\" path="E:\GitRepo\OTT20171015" />
+  <event action="Analyze" type="Success" name="OTT20171015" path="E:\GitRepo\OTT20171015\OTT20171015.sln" />
+</log>

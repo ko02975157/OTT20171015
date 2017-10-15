@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+
+public partial class GdViewSearchCondition : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnQuery_Click(object sender, EventArgs e)
+    {
+        lblMessageLine.Text = "";
+        if (string.IsNullOrEmpty(txtCondition.Text))
+        {
+            lblMessageLine.Text = "關鍵字不得空白，輸入錯誤請重新輸入!";
+            txtCondition.Focus();
+            return;
+        }
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\employee\App_Data\employeeDB.mdf;Integrated Security=True;Connect Timeout=30");
+        ObjConn.Open();
+        string SqlString;
+        if (txtCondition.Text.ToUpper() == "ALL")
+        {
+            SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+        }
+        else
+        {
+            SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee where  empName like N'%" + txtCondition.Text + "%'";
+        }
+
+        //string SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee where  empName like N'%@Condition%'";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        //SqlComm.Parameters.Add(new SqlParameter("@Condition", txtCondition.Text));
+        SqlDataReader rs = SqlComm.ExecuteReader();
+        if (rs.HasRows == false)
+        {
+            lblMessageLine.Text = "員工資料檔中查無資料!!";
+        }
+        gdViewShow.DataSource = rs;
+        gdViewShow.DataBind();
+        ObjConn.Close();
+        rs.Close();
+
+    }
+}

@@ -1,0 +1,50 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="GdvDelete.aspx.cs" Inherits="employee_GVSearch" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="標楷體" Font-Size="X-Large" ForeColor="Blue" Text="員工離職處理"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                    <asp:Label ID="lblMessageLine" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="Red"></asp:Label>
+    <br />
+    <br />
+    <asp:GridView ID="gdViewShow1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Horizontal" OnRowDeleting="gdViewShow_RowDeleting1" >
+        <AlternatingRowStyle BackColor="#F7F7F7" />
+        <Columns>
+            <asp:CommandField ShowDeleteButton="True" HeaderText="刪除" >
+            <ItemStyle Font-Names="細明體" Font-Size="Medium" />
+            </asp:CommandField>
+            <asp:BoundField DataField="empNo" HeaderText="員工代號">
+            <ItemStyle Font-Size="Medium" Width="80px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empName" HeaderText="員工姓名">
+            <ItemStyle Font-Size="Medium" Width="100px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empID" HeaderText="身份證號">
+            <ItemStyle Font-Size="Medium" Width="100px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empAddress" HeaderText="員工地址">
+            <ItemStyle Font-Size="Medium" Width="250px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empTelNo" HeaderText="員工電話">
+            <ItemStyle Font-Size="Medium" Width="120px" />
+            </asp:BoundField>
+            <asp:BoundField DataField="empSalary" HeaderText="薪資">
+            <ItemStyle Font-Size="Medium" Width="80px" />
+            </asp:BoundField>
+        </Columns>
+        <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+        <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
+        <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />
+        <RowStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" />
+        <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="#F7F7F7" />
+        <SortedAscendingCellStyle BackColor="#F4F4FD" />
+        <SortedAscendingHeaderStyle BackColor="#5A4C9D" />
+        <SortedDescendingCellStyle BackColor="#D8D8F0" />
+        <SortedDescendingHeaderStyle BackColor="#3E3277" />
+    </asp:GridView>
+    <br />
+    <br />
+</asp:Content>
+

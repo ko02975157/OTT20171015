@@ -1,0 +1,59 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+
+public partial class employee_GVSearch : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblMessageLine.Text = "";
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        SqlDataReader rs = SqlComm.ExecuteReader();
+        if (rs.HasRows == false)
+        {
+            lblMessageLine.Text = "員工資料檔無資料!!";
+        }
+        gdViewShow1.DataSource = rs;
+        gdViewShow1.DataBind();
+        ObjConn.Close();
+        rs.Close();    
+    }
+   
+    protected void gdViewShow_RowDeleting1(object sender, GridViewDeleteEventArgs e)
+    {
+        int currentRowIndex = e.RowIndex;
+        string currentEmpNo = gdViewShow1.Rows[currentRowIndex].Cells[1].Text;
+
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "delete from employee where empNo='" + currentEmpNo + "'";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        int count = SqlComm.ExecuteNonQuery();
+        if (count == 0)
+        {
+            lblMessageLine.Text = "刪除失敗!!請通知系統管理人員處理";
+        }
+        else
+        {
+            SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+            SqlComm = new SqlCommand(SqlString, ObjConn);
+            SqlDataReader rs = SqlComm.ExecuteReader();
+            if (rs.HasRows == false)
+            {
+                lblMessageLine.Text = "員工資料檔無資料!!";
+            }
+           gdViewShow1.DataSource = rs;
+           gdViewShow1.DataBind();
+       }
+        ObjConn.Close();    
+    }
+
+    
+}

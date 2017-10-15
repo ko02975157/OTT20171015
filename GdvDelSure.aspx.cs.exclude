@@ -1,0 +1,118 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+
+public partial class GdvDelSure : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblMessageLine.Text = "";
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        SqlDataReader rs = SqlComm.ExecuteReader();
+        if (rs.HasRows == false)
+        {
+            lblMessageLine.Text = "員工資料檔無資料!!";
+        }
+        gdvDelSureShow.DataSource = rs;
+        gdvDelSureShow.DataBind();
+        ObjConn.Close();
+        rs.Close();    
+    } 
+  
+    protected void gdvDelSureShow_SelectedIndexChanged(object sender, EventArgs e)
+    {
+         int currentRowIndex = gdvDelSureShow.SelectedIndex;
+         if (currentRowIndex == -1)
+             return;
+        //string   CurrentEmpNo =  gdvDelSureShow .Rows[currentRowIndex].Cells[1].Text;
+        txtNo.Text =gdvDelSureShow .Rows[currentRowIndex].Cells[1].Text;
+        txtName.Text = gdvDelSureShow .Rows[currentRowIndex].Cells[2].Text;
+        //aa.items.add(gdvDelSureShow .Rows[currentRowIndex].Cells[2].Text);
+        txtID.Text =gdvDelSureShow .Rows[currentRowIndex].Cells[3].Text;
+        txtAddress.Text = gdvDelSureShow .Rows[currentRowIndex].Cells[4].Text;
+        txtTelNo.Text = gdvDelSureShow .Rows[currentRowIndex].Cells[5].Text;
+        txtSalary.Text = gdvDelSureShow .Rows[currentRowIndex].Cells[6].Text;
+        txtNo.Enabled = false;
+        btnDelSure.Enabled = true;
+        btnUpdatSure.Enabled = true;        
+
+    }
+   
+    protected void btnDelSure_Click1(object sender, EventArgs e)
+    {
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "delete from employee where empNo='" + txtNo.Text + "'";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        int count = SqlComm.ExecuteNonQuery();
+        if (count == 0)
+        {
+            lblMessageLine.Text = "刪除失敗!!請通知系統管理人員處理";
+        }
+        else
+        {
+            SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+            SqlComm = new SqlCommand(SqlString, ObjConn);
+            SqlDataReader rs = SqlComm.ExecuteReader();
+            gdvDelSureShow.DataSource = rs;
+            gdvDelSureShow.DataBind();
+            txtNo.Text = "";
+            txtName.Text = "";
+            txtID.Text = "";
+            txtAddress.Text = "";
+            txtTelNo.Text = "";
+            txtSalary.Text = "";
+            txtNo.Focus();
+        }
+        ObjConn.Close();
+        btnDelSure.Enabled = false;
+        btnUpdatSure.Enabled = false;
+     
+    }
+    protected void btnUpdatSure_Click(object sender, EventArgs e)
+    {
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "update employee set empName=N'" + txtName.Text + "', ";
+        SqlString = SqlString + " empID='" + txtID.Text + "', ";
+        SqlString = SqlString + "empAddress=N'" + txtAddress.Text + "', ";
+        SqlString = SqlString + "empTelNo='" + txtTelNo.Text + "', ";
+        SqlString = SqlString + " empSalary=" + txtSalary.Text;
+        SqlString = SqlString + " where empNo='" + txtNo.Text + "'";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        int count = SqlComm.ExecuteNonQuery();
+        ObjConn.Close();
+        if (count == 0)
+        {
+            lblMessageLine.Text = "修改失敗,請通知系統管理人員處理";
+        }
+        else
+        {
+            lblMessageLine.Text = "修改完成!!";
+            ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+            ObjConn.Open();
+            SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+            SqlComm = new SqlCommand(SqlString, ObjConn);
+            SqlDataReader rs = SqlComm.ExecuteReader();
+            gdvDelSureShow.DataSource = rs;
+            gdvDelSureShow.DataBind();
+            ObjConn.Close();
+            btnDelSure.Enabled = false;
+            btnUpdatSure.Enabled = false;
+            txtNo.Text = "";
+            txtName.Text = "";
+            txtID.Text = "";
+            txtAddress.Text = "";
+            txtTelNo.Text = "";
+            txtSalary.Text = "";          
+            txtNo.Focus();
+        }
+    }
+}

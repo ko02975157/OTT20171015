@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+
+public partial class Default3 : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        SqlConnection ObjConn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=d:\D-1上課資料\web程式設計\employee\App_Data\employeeDB.mdf;Integrated Security=True");
+        ObjConn.Open();
+        string SqlString = "select empNo,empName,empID,empAddress,empTelNo,empSalary from employee";
+        SqlCommand SqlComm = new SqlCommand(SqlString, ObjConn);
+        SqlDataReader rs = SqlComm.ExecuteReader();
+        if (rs.HasRows == false)
+        {
+            lblMessageLine.Text = "員工資料檔無資料!!";
+        }
+        GridView1.DataSource = rs;
+        GridView1.DataBind();
+        ObjConn.Close();
+        rs.Close();    
+    }
+   
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        int a = DropDownList1.SelectedIndex;
+        Response.Write(a);
+        TextBox1.Text = a.ToString();
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        int a = DropDownList2.SelectedIndex;
+        Response.Write(a);
+        TextBox2.Text = a.ToString();
+    }
+    protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
+}
